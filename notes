@@ -1,0 +1,22 @@
+thought process / steps for adding a new bookmark folder / category:
+
+1. untitled, contenteditable paragraphs are hidden
+2. user clicks new button to add a new folder
+3. the uppermost untitled paragraph shows itself
+4. the user clicks on the untitled <p> tag to change the folder name to whatever they want
+5. when the user clicks again, anywhere on the page, the <p> that has been edited is saved so that
+   when the user visits the page again, the folder name is saved
+   when the user clicks new again, the next <p> is shown
+
+   
+   instead of having a bunch of untitled elements hidden, create new element w/ js w/ sidebar-item class and contenteditable enabled
+
+   
+add ability to remove bookmark folders
+add search functionality
+add ability to add bookmarks
+work on responsiveness
+scrape title of website
+scrape description of site
+if it's a youtube video, scrape the thumbnail
+integrate firebase instead of using local storage 

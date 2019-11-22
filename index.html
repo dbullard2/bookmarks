@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookmarks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="main-content">
+      <div class="top-stripe">
+        <p>Bookmarks</p>
+        <input type="text" name="search" placeholder="Search...">
+      </div>
+      <div class="sidebar" id="stuff">
+        <p style="display:inline;">Folders</p>
+        <a onclick="addFolder();" onmouseover="style.color = document.body.style.backgroundColor;" onmouseout="style.color = 'black';"><h6>new</h6></a>
+        <p style="margin-top: 10%;" contenteditable="true" id="one">untitled</p>
+      </div>
+      <div class="newBookmark" id="plus"><div id="cross"></div></div>
+    </div>
+  </body>
+</html>
